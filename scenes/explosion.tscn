@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbh80el4e4uha"]
+
+[ext_resource type="SpriteFrames" uid="uid://chxj5olx420pf" path="res://sprites/explosion.tres" id="1_3rmfv"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_hl8gf"]
+radius = 84.006
+
+[node name="Explosion" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(35, 172)
+sprite_frames = ExtResource("1_3rmfv")
+animation = &"explosion"
+offset = Vector2(-35, -172)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_hl8gf")

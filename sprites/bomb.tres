@@ -1,0 +1,59 @@
+[gd_resource type="SpriteFrames" load_steps=12 format=3 uid="uid://dg0dinoq7dbg5"]
+
+[ext_resource type="Texture2D" uid="uid://cspbiyfskgvyo" path="res://sprites/7-Objects/1-BOMB/1-Bomb Off/1.png" id="1_cjjf1"]
+[ext_resource type="Texture2D" uid="uid://bs3pkri5e8rv2" path="res://sprites/7-Objects/1-BOMB/2-Bomb On/1.png" id="1_m8h38"]
+[ext_resource type="Texture2D" uid="uid://8omjshaavjd1" path="res://sprites/7-Objects/1-BOMB/2-Bomb On/2.png" id="2_dypc3"]
+[ext_resource type="Texture2D" uid="uid://c7npo1lmistwx" path="res://sprites/7-Objects/1-BOMB/2-Bomb On/3.png" id="3_daxia"]
+[ext_resource type="Texture2D" uid="uid://dtu6wexwqtnkc" path="res://sprites/7-Objects/1-BOMB/2-Bomb On/4.png" id="4_xnru5"]
+[ext_resource type="Texture2D" uid="uid://dusreuskyfu8o" path="res://sprites/7-Objects/1-BOMB/2-Bomb On/5.png" id="5_4h521"]
+[ext_resource type="Texture2D" uid="uid://ben17md22awul" path="res://sprites/7-Objects/1-BOMB/2-Bomb On/6.png" id="6_h1s0u"]
+[ext_resource type="Texture2D" uid="uid://3r203by37x3s" path="res://sprites/7-Objects/1-BOMB/2-Bomb On/7.png" id="7_2a27u"]
+[ext_resource type="Texture2D" uid="uid://8nxcvmuxcoq3" path="res://sprites/7-Objects/1-BOMB/2-Bomb On/8.png" id="8_6bbym"]
+[ext_resource type="Texture2D" uid="uid://baekmcb1xgeq3" path="res://sprites/7-Objects/1-BOMB/2-Bomb On/9.png" id="9_2igne"]
+[ext_resource type="Texture2D" uid="uid://bkb52hhyo0opm" path="res://sprites/7-Objects/1-BOMB/2-Bomb On/10.png" id="10_8dk0a"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_cjjf1")
+}],
+"loop": false,
+"name": &"bomb_off",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_m8h38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_dypc3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_daxia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xnru5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_4h521")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_h1s0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_2a27u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_6bbym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_2igne")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_8dk0a")
+}],
+"loop": true,
+"name": &"bomb_on",
+"speed": 20.0
+}]

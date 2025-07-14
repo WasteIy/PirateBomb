@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://x0vx8qw0jfbs"]
+
+[ext_resource type="SpriteFrames" uid="uid://dg0dinoq7dbg5" path="res://sprites/bomb.tres" id="1_83tyj"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_r0vxa"]
+radius = 15.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2bygw"]
+size = Vector2(10, 20)
+
+[node name="Bomb" type="RigidBody2D"]
+collision_layer = 4
+collision_mask = 5
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1, -19)
+sprite_frames = ExtResource("1_83tyj")
+animation = &"bomb_off"
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_r0vxa")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(0, -12)
+shape = SubResource("RectangleShape2D_2bygw")

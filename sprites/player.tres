@@ -353,9 +353,9 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("73_kj8kf")
 }],
-"loop": true,
+"loop": false,
 "name": &"ground",
-"speed": 20.0
+"speed": 40.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -415,7 +415,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("86_httj5")
 }],
-"loop": true,
+"loop": false,
 "name": &"jump_anticipation",
 "speed": 20.0
 }, {

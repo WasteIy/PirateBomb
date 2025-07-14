@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://brb0f0a12q5rm"]
+
+[ext_resource type="SpriteFrames" uid="uid://c60f3cennjxce" path="res://sprites/player.tres" id="1_tv4qm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xrcc0"]
+size = Vector2(36.5, 54)
+
+[node name="Player" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("1_tv4qm")
+animation = &"idle"
+autoplay = "idle"
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(4.25, 2)
+shape = SubResource("RectangleShape2D_xrcc0")
